@@ -15,6 +15,7 @@ A student's academic performance can depend on several factors such as study hou
 In this project, two features are used to predict the student's result:
 
 Hours Studied
+
 Attendance Percentage
 
 The model predicts whether the student will:
@@ -29,6 +30,7 @@ The dataset contains information about students along with their Pass/Fail outco
 The features used in this model are:
 
 Hours Studied – Number of hours the student studied.
+
 Attendance – Attendance percentage of the student.
 
 The target variable is:
@@ -45,8 +47,11 @@ The dataset contains 50 student records.
 🛠️ Technologies Used
 
 Python
+
 Jupyter Notebook
+
 NumPy
+
 Matplotlib
 
 📌 Machine Learning Model
@@ -58,6 +63,7 @@ The model learns the relationship between:
 Input Features:
 
 Hours Studied
+
 Attendance
 
 Target Variable:
@@ -67,16 +73,27 @@ Pass/Fail
 The general workflow includes:
 
 Creating and preparing the student dataset using NumPy.
+
 Visualizing the relationship between student features and Pass/Fail results using Matplotlib.
+
 Implementing the Sigmoid function to convert the model output into a probability.
+
 Implementing a custom Cost Function to calculate the prediction error.
+
 Implementing Gradient Calculation for the model parameters.
+
 Implementing Gradient Descent from scratch to optimize the values of weights and bias.
+
 Applying Feature Scaling to the input features.
+
 Experimenting with different learning rates (alpha) and observing their effect on the final cost.
+
 Plotting the Cost vs. Iterations graph.
+
 Visualizing the Decision Boundary.
+
 Making predictions using the trained Logistic Regression model.
+
 Comparing predicted results with the actual Pass/Fail values.
 
 The Logistic Regression model uses the sigmoid function to calculate the probability of a student passing.
@@ -84,6 +101,7 @@ The Logistic Regression model uses the sigmoid function to calculate the probabi
 The prediction is classified using a threshold:
 
 Probability >= 0.5 → Pass
+
 Probability < 0.5  → Fail
 
 📈 Model Evaluation
@@ -97,11 +115,17 @@ During training, Gradient Descent updates the values of the weights and bias to 
 The project includes:
 
 Initial cost calculation
+
 Final cost calculation
+
 Cost vs. Iterations graph
+
 Learning rate comparison
+
 Decision boundary visualization
+
 Comparison between actual and predicted results
+
 Accuracy calculation
 
 The initial cost was approximately:
@@ -123,31 +147,52 @@ A decreasing cost during training indicates that the model is learning and impro
 Through this project, I learned:
 
 The fundamentals of Logistic Regression and how it can be used for binary classification.
+
 How to implement Logistic Regression from scratch using NumPy.
+
 How the Sigmoid function converts model output into probabilities.
+
 How to calculate the Logistic Regression cost function.
+
 How Gradient Descent updates model parameters to minimize the cost.
+
 The importance of choosing an appropriate learning rate.
+
 Why Feature Scaling is useful during model training.
+
 How to visualize student data using Matplotlib.
+
 How to plot and analyze Cost vs. Iterations.
+
 How to visualize a Decision Boundary for classification.
+
 How to compare actual and predicted results.
+
 How to calculate the accuracy of a classification model.
+
 
 🔮 Future Improvements
 
 Possible improvements to this project include:
 
 Using a larger and more realistic student performance dataset.
+
 Adding more features such as previous exam scores, assignments, study habits, and sleep hours.
+
 Using a larger training and testing dataset.
+
 Splitting the dataset into training and testing sets to evaluate performance on unseen data.
+
 Adding evaluation metrics such as Precision, Recall, F1-Score, and Confusion Matrix.
+
 Comparing the custom Logistic Regression implementation with Scikit-learn's Logistic Regression.
+
 Experimenting with different feature scaling techniques.
+
 Improving the visualization of the decision boundary.
+
 Testing different learning rates and numbers of iterations.
+
 Trying other classification algorithms such as KNN, Decision Tree, Random Forest, and SVM.
 
 👩‍💻 Author
